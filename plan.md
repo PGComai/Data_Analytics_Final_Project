@@ -10,6 +10,8 @@
 - genre vs year
 - book prices per author
 - predict genre from title
+- price of genre
+- number of reviews vs price
 
 ## Datasets
 - amazon from kaggle
@@ -38,6 +40,7 @@
 
 ## To be done by next week (2/5)
 - data prep (Natalie)
-- experiment with data regarding some questions
+- experiment with data
+- do our own things, come together over weekend
 - mapped out how machine learning model will work
 - dashboard outline
