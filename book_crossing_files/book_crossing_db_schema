@@ -1,0 +1,20 @@
+users
+-
+user_id int PK FK - book_ratings.user_id
+location varch(50) 
+age int
+ 
+book_ratings
+-
+user_id int
+isbn int FK - books.isbn
+book_ratings int
+ 
+ 
+books
+-
+isbn int
+book_title varch(100)
+author varch(50)
+publication_year int
+publisher int
