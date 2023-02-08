@@ -1,25 +1,24 @@
 -- Creating tables for PH-EmployeeDB
 CREATE TABLE users (
-	user_id INT NOT NULL,
-	address VARCHAR(255) NOT NULL,
-	age FLOAT Not Null,
-	PRIMARY KEY (user_id)
+	User_ID INT NOT NULL,
+  Address VARCHAR(255) NOT NULL,
+	Age FLOAT Not Null,
+	PRIMARY KEY (User_ID)
 );
 CREATE TABLE book_ratings (
-  user_id INT NOT NULL,
-  isbn VARCHAR(13) NOT NULL,
-  book_rating INT NOT NULL,
-  PRIMARY KEY  (user_id, isbn)
+  User_ID INT NOT NULL,
+  ISBN VARCHAR(13) NOT NULL,
+  Book_Rating INT NOT NULL,
+  PRIMARY KEY  (User_ID, ISBN)
 );
 CREATE TABLE books (
   ISBN VARCHAR(13) NOT NULL,
-  book_title VARCHAR(255) Not NULL,
-  book_author VARCHAR(255) Not NULL,
-  year_of_publication VARCHAR Not NULL,
-  publisher VARCHAR(255) Not NULL,
-  image_url_m VARCHAR(255) Not NULL,
+  Book_Title VARCHAR(255) Not NULL,
+  Book_Author VARCHAR(255) Not NULL,
+  Year_Of_Publication VARCHAR Not NULL,
+  Publisher VARCHAR(255) Not NULL,
   PRIMARY KEY (isbn)
 );
 
-Select * From book_ratings
+Select * From Book_Ratings
 -- Drop Table book_ratings
