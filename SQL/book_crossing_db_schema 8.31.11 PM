@@ -1,20 +1,20 @@
 users
 -
-user_id int PK FK- book_ratings.user_id
-location varch(50) 
-age int
+User_ID int PK FK - book_ratings.User_ID
+Address varch(255) 
+Age float
  
 book_ratings
 -
-user_id int
-isbn int FK - books.isbn
-book_ratings int
+User_ID int PK 
+ISBN varch(13) PK FK - books.ISBN
+Book_Rating int
  
  
 books
 -
-isbn int
-book_title varch(100)
-author varch(50)
-publication_year int
-publisher int
+ISBN varch(13) PK
+Book_Title varch(255)
+Book_Author varch(255)
+Year_Of_Publication varch(255)
+Publisher varch(255)
