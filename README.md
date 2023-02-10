@@ -12,10 +12,10 @@ Original Dataset Link: Our group is using the Book Crossing data set available o
 
 Links:
 
+
 Entity Relationship Diagram (ERD) (Once in main branch add that link):
 We used [QuickDB](https://app.quickdatabasediagrams.com/#/) to create the entity relationship diagram
-    Link to ERD: 
-    Link to schema:
+![image](https://user-images.githubusercontent.com/29783071/217999397-93cef473-1dcb-4e74-ab40-4d0a90aacbcc.png)
 
 SQL Table Queries (Once in main branch add that link): https://github.com/PGComai/Data_Analytics_Final_Project/blob/n_webscraping/book_crossing_files/sql/Book_crossing_data.sql
 
