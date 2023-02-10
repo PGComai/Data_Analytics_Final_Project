@@ -17,11 +17,11 @@ Entity Relationship Diagram (ERD) (Once in main branch add that link):
 We used [QuickDB](https://app.quickdatabasediagrams.com/#/) to create the entity relationship diagram
 ![image](https://user-images.githubusercontent.com/29783071/217999397-93cef473-1dcb-4e74-ab40-4d0a90aacbcc.png)
 
-SQL Table Queries (Once in main branch add that link): https://github.com/PGComai/Data_Analytics_Final_Project/blob/n_webscraping/book_crossing_files/sql/Book_crossing_data.sql
+SQL Table Queries (Once in main branch add that link): https://github.com/PGComai/Data_Analytics_Final_Project/blob/main/SQL/Book_crossing_data.sql
 
-SQL Join Queries (Once in main branch add that link): https://github.com/PGComai/Data_Analytics_Final_Project/blob/n_webscraping/book_crossing_files/sql/joins.sql
+SQL Join Queries (Once in main branch add that link): https://github.com/PGComai/Data_Analytics_Final_Project/blob/main/SQL/joins.sql
 
-Clean Dataset link (Once in main branch add that link): https://github.com/PGComai/Data_Analytics_Final_Project/blob/n_webscraping/book_crossing_files/csv/BC_Final_clean.csv
+Clean Dataset link (Once in main branch add that link): https://github.com/PGComai/Data_Analytics_Final_Project/blob/m_learning/CSV/02.08.23_clean.csv
 
 Tableau Dashboard/Story Link:
 
