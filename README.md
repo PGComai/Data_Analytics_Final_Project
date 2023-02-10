@@ -13,7 +13,7 @@ Original Dataset Link: Our group is using the Book Crossing data set available o
 Links:
 
 Entity Relationship Diagram (ERD) (Once in main branch add that link):
-We used      to create the entity relationship diagram
+We used [QuickDB](https://app.quickdatabasediagrams.com/#/) to create the entity relationship diagram
     Link to ERD: 
     Link to schema:
 
