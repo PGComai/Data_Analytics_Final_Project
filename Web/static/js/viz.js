@@ -5,7 +5,7 @@ function init() {
     d3.csv("/static/js/BC_Final_clean_again.csv",function(data){
         //console.log(data);
         
-        var ids = Array.from(data.User_ID);
+        var ids = data.User_ID;
 
         console.log(ids)
 
