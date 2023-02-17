@@ -38,5 +38,10 @@ Summary:
  
  ## Deliverable 2
  
- Project status: As we have worked on our analysis, our dataset has turned into multiple datasets. For our machine learning model, we shaved our data town to 38,700 rows & 6 columns.
+ Project status: As we have worked on our analysis, our dataset has turned into multiple datasets. For our machine learning model, we shaved our data down to 38,700 rows & 6 columns.
 
+### Dataset dimensions
+
+Default data:
+
+![image](Images/all_data.png)
