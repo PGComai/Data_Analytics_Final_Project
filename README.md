@@ -50,6 +50,13 @@ Machine learning data:
 
 ![image](Images/sml_data.png)
 
+Machine learning results:
+
+<img width="319" alt="Screenshot_20230216_075838" src="https://user-images.githubusercontent.com/29783071/219546035-b998dec6-b784-4ea2-875a-0484c23f3b53.png">
+
+### Visualization
+
 Tableau visualization:
 
-![image](Images/tableau)
+<img width="915" alt="Screenshot_20230216_075432" src="https://user-images.githubusercontent.com/29783071/219545797-f12aeb91-f5c6-4fdb-903c-bf44efe719b6.png">
+
