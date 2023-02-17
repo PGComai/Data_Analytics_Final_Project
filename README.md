@@ -1,5 +1,7 @@
 # Book Crossing
 
+## Deliverable 1
+
 Overview: Our group is interested in creating a book tracking app, but first we need some insight on certain countries or age groups that would be the target audience. We decided to take a look at the Book Crossing data and find for some answers.
 
 Original Dataset Link: Our group is using the Book Crossing data set available on the [Institut für Informatik Freiburg](http://www2.informatik.uni-freiburg.de/~cziegler/BX/) website.  
@@ -33,4 +35,8 @@ Summary:
  Next steps: 1. Create a basic machine learning model (Include a confusion matrix and accuracy score)
  2. Flesh out presentation (Make it easy to look at)
  3. Reorganize github branches to be more sectional instead of personal
+ 
+ ## Deliverable 2
+ 
+ Project status: As we have worked on our analysis, our dataset has turned into multiple datasets. For our machine learning model, we shaved our data town to 38,700 rows & 6 columns.
 
