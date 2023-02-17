@@ -27,7 +27,7 @@ SQL Join Queries (Once in main branch add that link): https://github.com/PGComai
 
 Clean Dataset link (Once in main branch add that link): https://github.com/PGComai/Data_Analytics_Final_Project/blob/m_learning/CSV/02.08.23_clean.csv
 
-Tableau Dashboard/Story Link:
+Tableau Dashboard/Story Link: https://public.tableau.com/app/profile/ryan7750/viz/BookAnalysis_16764326478180/Dashboard1?publish=yes
 
 Presentation Link: https://docs.google.com/presentation/d/1vRV38NYPL31NVa37Tg1ylln4VgKnkeOAEaq2_KUAiko/edit?usp=sharing 
 
@@ -45,3 +45,11 @@ Summary:
 Default data:
 
 ![image](Images/all_data.png)
+
+Machine learning data:
+
+![image](Images/sml_data.png)
+
+Tableau visualization:
+
+![image](Images/tableau)
