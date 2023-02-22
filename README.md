@@ -4,15 +4,7 @@ Project status: Using SQL, we combined 3 CSV files into a single dataset. We the
 
 ## Overview
 
-## Analysis
-
-## Results
-
-## Summary
-
-## Deliverable 1
-
-Overview: Our group is interested in creating a book tracking app, but first we need some insight on certain countries or age groups that would be the target audience. We decided to take a look at the Book Crossing data and find for some answers.
+Our group is interested in creating a book tracking app, but first we need some insight on certain countries or age groups that would be the target audience. We decided to take a look at the Book Crossing data and find for some answers.
 
 Original Dataset Link: Our group is using the Book Crossing data set available on the [Institut für Informatik Freiburg](http://www2.informatik.uni-freiburg.de/~cziegler/BX/) website.  
     
@@ -27,7 +19,7 @@ Created tables using PostgresSQL in pgAdmin and imported the data of three csv f
 
 Links:
 
-Entity Relationship Diagram (ERD) (Once in main branch add that link):
+Entity Relationship Diagram (ERD):
 We used [QuickDB](https://app.quickdatabasediagrams.com/#/) to create the entity relationship diagram
 ![image](https://user-images.githubusercontent.com/29783071/217999397-93cef473-1dcb-4e74-ab40-4d0a90aacbcc.png)
 
@@ -41,14 +33,9 @@ Tableau Dashboard/Story Link: https://public.tableau.com/app/profile/ryan7750/vi
 
 Presentation Link: https://docs.google.com/presentation/d/1vRV38NYPL31NVa37Tg1ylln4VgKnkeOAEaq2_KUAiko/edit?usp=sharing 
 
-Summary:
- Next steps: 1. Create a basic machine learning model (Include a confusion matrix and accuracy score)
- 2. Flesh out presentation (Make it easy to look at)
- 3. Reorganize github branches to be more sectional instead of personal
- 
-## Deliverable 2
+## Analysis
 
-### Dataset dimensions
+Using SQL, we combined 3 CSV files into a single dataset. We then cleaned that dataset several times over to ensure there were no null values, duplicates, or other undesireable data points. We also used this as an opportunity to further refine the country column, correcting spelling errors and null values. As we have worked on our analysis, our dataset has turned into multiple datasets again. For our machine learning model, we created a new dataset by shaving our data down to 38,700 rows & 6 columns. Tableau was also used at this point to create interactive visualizations in which to display our data.
 
 Default data:
 
@@ -58,13 +45,18 @@ Machine learning data:
 
 ![image](Images/sml_data.png)
 
+Tableau Visualizations:
+
+<img width="915" alt="Screenshot_20230216_075432" src="https://user-images.githubusercontent.com/29783071/219545797-f12aeb91-f5c6-4fdb-903c-bf44efe719b6.png">
+
+## Results
+
+As for the results, we opted for supervised learning as our machine learning model. The question we decided to answer was wether or not machine learning would be able to predict if someone would be an above average reader or not, with an above average reader being a User ID who read 7 or more books, this number being found through finding the average amount of books read per user, which amounted to 6.67. We tested both Decision Tree and Random Forest Classifiers, but found that the Decision Tree Classifiers reached roughly a 95% accuracy, which was higher than the Random Forest, so we stuck with that.
 Machine learning results:
 
 <img width="319" alt="Screenshot_20230216_075838" src="https://user-images.githubusercontent.com/29783071/219546035-b998dec6-b784-4ea2-875a-0484c23f3b53.png">
 
-### Visualization
+## Summary
 
-Tableau visualization:
-
-<img width="915" alt="Screenshot_20230216_075432" src="https://user-images.githubusercontent.com/29783071/219545797-f12aeb91-f5c6-4fdb-903c-bf44efe719b6.png">
+Once everything was completed, and we were able to see the bigger picture, it was clear that machine learning was able to accurately predict if someone was an above average reader or not based heavily off of User Ratings, but also their age and the country in which they left the review in. This is extremely interesting if one were to potentially develop an app used for publishing companies or authors who are trying to identify certain demographics in order to maximize sales or ratings. 
 
