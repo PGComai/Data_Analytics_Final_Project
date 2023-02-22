@@ -2,6 +2,14 @@
 
 Project status: Using SQL, we combined 3 CSV files into a single dataset. We then cleaned that dataset several times over to ensure there were no null values, duplicates, or other undesireable data points. As we have worked on our analysis, our dataset has turned into multiple datasets again. For our machine learning model, we created a new dataset by shaving our data down to 38,700 rows & 6 columns. After splitting the data we fit the model and assessed its accuracy. We also have begun to visualize our data using Tableau, the results of which are shown in the deliverable 2 section below.
 
+## Overview
+
+## Analysis
+
+## Results
+
+## Summary
+
 ## Deliverable 1
 
 Overview: Our group is interested in creating a book tracking app, but first we need some insight on certain countries or age groups that would be the target audience. We decided to take a look at the Book Crossing data and find for some answers.
