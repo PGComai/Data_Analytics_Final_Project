@@ -4,9 +4,11 @@ Project status: Using SQL, we combined 3 CSV files into a single dataset. We the
 
 ## Overview
 
-Our group is interested in creating a book tracking app, but first we need some insight on certain countries or age groups that would be the target audience. We decided to take a look at the Book Crossing data and find for some answers. Book Crossing is a website where people can share and rate books they have read.
+Our group is interested in creating a book tracking app, but first we need some insight on certain countries or age groups that would be the target audience. We decided to take a look at the Book Crossing data and find some answers.
 
-Book Crossing website: https://www.bookcrossing.com/
+Book Crossing is a website where people can share and rate books they have read.
+
+Website: https://www.bookcrossing.com/
 
 Original Dataset Link: Our group is using the Book Crossing data set available on the [Institut für Informatik Freiburg](http://www2.informatik.uni-freiburg.de/~cziegler/BX/) website.  
     
