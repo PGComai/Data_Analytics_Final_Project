@@ -57,6 +57,7 @@ Tableau Visualizations:
 ## Results
 
 As for the results, we opted for supervised learning as our machine learning model. The question we decided to answer was whether or not machine learning would be able to predict if someone would be an above average reader or not, with an above average reader being a User ID who read 7 or more books, this number being found through finding the average amount of books read per user, which amounted to 6.67. We tested both Decision Tree and Random Forest Classifiers, but found that the Decision Tree Classifiers reached roughly a 95% accuracy, which was higher than the Random Forest, so we stuck with that.
+
 Machine learning results:
 
 <img width="319" alt="Screenshot_20230216_075838" src="https://user-images.githubusercontent.com/29783071/219546035-b998dec6-b784-4ea2-875a-0484c23f3b53.png">
